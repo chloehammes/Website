@@ -1,0 +1,21 @@
+body {
+  font-size: 10px;
+}
+
+
+.thumbnail-title{
+  background: rgb(255, 228, 132);
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-left-style: solid;
+  border-left-width:medium;
+  border-right-style: solid;
+  border-right-width: medium;
+  border-top-style: solid;
+  border-top-width: medium;
+  color: rgb(204, 132, 255);
+  display: block;
+  font-size: 18px;
+  margin: 0;
+  padding: 0.4em 1em;
+}
