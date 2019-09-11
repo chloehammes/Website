@@ -1,4 +1,5 @@
 body {
+  background: rgb(224, 215, 224);
   font-size: 10px;
 }
 
@@ -13,9 +14,28 @@ body {
   border-right-width: medium;
   border-top-style: solid;
   border-top-width: medium;
-  color: rgb(204, 132, 255);
+  color: rgb(255, 125, 255);
   display: block;
   font-size: 18px;
   margin: 0;
   padding: 0.4em 1em;
+}
+
+a[href="#"] {
+  text-decoration: none;
+}
+
+.thumbnail-image {
+  display: block;
+  width: 100%;
+}
+
+.thumbnail-item {
+  border: 4px solid rgb(100%, 100%, 100%);
+  border: 4px solid rgba(100%, 100%, 100%, 0.8);
+  display: block;
+}
+
+.thumbnail-list {
+  list-style: none;
 }
